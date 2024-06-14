@@ -1,9 +1,24 @@
 body {
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
     margin-top: 100px;
     background-color: #fad002;
 }
 
+.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 30px;
+  }
+
 ul {
+    text-align: center;
     padding: 0;
 }
 
@@ -13,6 +28,12 @@ ul li {
     padding: 5px;
 }
 
-h1 {text-align: center;}
+h1 {
+    text-align: center;
+}
 
-input{border: none; width: 100%;}
+input {
+    padding: 15px 10px;
+    outline: none;
+    width: 250px;
+  }

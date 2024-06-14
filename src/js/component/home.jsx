@@ -7,7 +7,7 @@ const Home = () => {
 
 	return (
 		<div className="container">
-			<h1>ToDoList Tasks</h1>
+			<h1><b>ToDoList Tasks</b></h1>
 			<ul>
 				<li>
 					<input
@@ -41,7 +41,7 @@ const Home = () => {
 				))}
 			</ul>
 			<div>
-				{todos.length} tasks
+				<b>{todos.length} tasks</b>
 			</div>
 		</div >
 	);
